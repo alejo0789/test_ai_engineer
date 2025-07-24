@@ -1,1 +1,27 @@
-[{"id": "1", "title": "Zubale Shampoo", "description": "Natural shampoo enriched with aloe and vitamin E. Refreshes and strengthens hair."}, {"id": "2", "title": "Zubale Conditioner", "description": "Moisturizing conditioner for smooth, detangled hair. Sulfate-free."}, {"id": "3", "title": "Zubale Hair Mask", "description": "Deep treatment for dry and damaged hair. Use weekly for best results."}, {"id": "4", "title": "Zubale Styling Gel", "description": "Alcohol-free gel that holds your style all day without flaking."}, {"id": "5", "title": "Zubale Hair Spray", "description": "Flexible hold spray for all hair types. No sticky residue."}]
+[
+    {
+        "id": "1",
+        "title": "Zubale Shampoo",
+        "description": "Natural shampoo enriched with aloe and vitamin E. Refreshes and strengthens hair."
+    },
+    {
+        "id": "2",
+        "title": "Zubale Conditioner",
+        "description": "Moisturizing conditioner for smooth, detangled hair. Sulfate-free."
+    },
+    {
+        "id": "3",
+        "title": "Zubale Hair Mask",
+        "description": "Deep treatment for dry and damaged hair. Use weekly for best results."
+    },
+    {
+        "id": "4",
+        "title": "Zubale Styling Gel",
+        "description": "Alcohol-free gel that holds your style all day without flaking."
+    },
+    {
+        "id": "5",
+        "title": "Zubale Hair Spray",
+        "description": "Flexible hold spray for all hair types. No sticky residue."
+    }
+]

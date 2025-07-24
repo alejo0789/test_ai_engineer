@@ -1,0 +1,14 @@
+retrieve_product_context:
+  description: |
+    Given the user's query: '{query}', find the most relevant product documentation
+    using the 'Semantic Product Retriever' tool.
+    The goal is to provide comprehensive context for the user's question.
+  expected_output: "A list of dictionaries, where each dictionary represents a relevant product document."
+
+generate_product_response:
+  description: |
+    Given the user's original query: '{query}', and the following retrieved product context: 
+    Craft a concise, accurate, and helpful answer.
+    Use ONLY the provided context. If the context is insufficient, state that.
+    Utilize the 'LLM Answer Generator' tool for this purpose.
+  expected_output: "A natural language answer to the user's question, strictly grounded in the provided context."
