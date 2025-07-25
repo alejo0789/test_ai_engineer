@@ -1,0 +1,21 @@
+version: '1.0'
+
+services:
+  product-query-bot:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_DEBUG=0
+      - PORT=5000
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data  # Persist the FAISS index and docs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
